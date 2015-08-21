@@ -19,7 +19,7 @@ public class Request {
 		
 	}
 	
-	public void getRelatedDrugs(String geneSymbol) throws MalformedURLException, IOException {
+	public ArrayList<String> getRelatedDrugs(String geneSymbol) throws MalformedURLException, IOException {
 		ArrayList<String> relatedDrugs = new ArrayList<String>();
 		URLConnection connection = new URL("http://cassandra.kevindalleau.fr:8000/api/v1/interactions.json?genes="+geneSymbol).openConnection();
 		InputStream response = connection.getInputStream();
@@ -43,7 +43,6 @@ public class Request {
 		            break;
 		    }
 		}
-		System.out.println(relatedDrugs.toString());
-		
+		return relatedDrugs;
 	}
 } 

@@ -20,12 +20,25 @@ public class Main {
 
 	    List<String[]> genesList = readerGene.readAll();
 	    List<String[]> drugsList = readerDrug.readAll();
+	    ArrayList<String> relatedDrugs = new ArrayList<String>();
 
-	    for(String[] entry : genesList) {
-	    	String geneId = entry[0];
-	    	String geneSymbol = entry[4];
-		    Request requester = new Request();
-		    requester.getRelatedDrugs(geneSymbol);
+	    for(String[] genes : genesList) {
+	    	String geneId = genes[0];
+//	    	String geneSymbol = "EGFR";
+	    	String geneSymbol = genes[4];
+	    	if(geneSymbol != "null") {
+	    		Request requester = new Request();
+			    relatedDrugs = requester.getRelatedDrugs(geneSymbol);
+			    for(String[] drugs : drugsList) {
+			    	String drugId = drugs[0];
+			    	String drugName = drugs[1].toUpperCase();
+			    	if(relatedDrugs.contains('"'+drugName+'"')) {
+			    		System.out.println(drugName+" est contenu dans "+ relatedDrugs.toString());
+			    	}
+			    }
+	    	}
+		    
+		    
 	    }
 
 
