@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/jackson-databind-2.6.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/jackson-databind-2.6.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/jackson-annotations-2.6.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/jackson-annotations-2.6.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/jackson-core-2.6.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/jackson-core-2.6.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/google-http-client-1.20.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/google-http-client-android-1.20.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/google-http-client-appengine-1.20.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/google-http-client-gson-1.20.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/google-http-client-jackson-1.20.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/google-http-client-jackson2-1.20.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/google-http-client-jdo-1.20.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/google-http-client-protobuf-1.20.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/google-http-client-xml-1.20.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/gson-2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/httpclient-4.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/httpcore-4.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/jdo2-api-2.3-eb.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/jsr305-1.3.9.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/protobuf-java-2.4.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/transaction-api-1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/xpp3-1.1.4c.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/commons-csv-1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kevindalleau/Dev/pidr/noLinksGenerator/lib/opencsv-2.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
