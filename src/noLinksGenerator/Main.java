@@ -32,8 +32,9 @@ public class Main {
 			    for(String[] drugs : drugsList) {
 			    	String drugId = drugs[0];
 			    	String drugName = drugs[1].toUpperCase();
-			    	if(relatedDrugs.contains('"'+drugName+'"')) {
-			    		System.out.println(drugName+" est contenu dans "+ relatedDrugs.toString());
+			    	if(!relatedDrugs.contains('"'+drugName+'"')) {
+			    		String pair = geneId+","+drugId;
+			    		System.out.println(pair);
 			    	}
 			    }
 	    	}
